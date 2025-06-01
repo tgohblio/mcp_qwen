@@ -1,0 +1,12 @@
+[project]
+name = "mcp-qwen"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "qwen-agent[gui,mcp,code_interpreter]",
+    "python-dateutil",
+    "matplotlib>=3.10.3",
+    "openpyxl>=3.1.5",
+]
